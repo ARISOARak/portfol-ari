@@ -23,7 +23,7 @@ export function Skills() {
     <section id="competences" className="border-t border-border bg-secondary/40">
       <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 md:py-28">
         <SectionHeading
-          index="03"
+          index="04"
           eyebrow="Compétences"
           title="Ma boîte à outils"
           description="Technologies, langages et méthodologies que j'utilise au quotidien."

@@ -34,7 +34,7 @@ export function Contact() {
         <Reveal>
           <div className="flex items-center gap-3 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">
             <span className="flex h-7 w-7 items-center justify-center rounded-md bg-primary/10 font-mono text-xs font-semibold text-primary">
-              04
+              05
             </span>
             <span className="h-px w-8 bg-border" />
             <span>Contact</span>

@@ -1,6 +1,6 @@
 export const profile = {
-  name: "Soloarisoa Delphine Rakotoarisoa",
-  shortName: "Soloarisoa Delphine",
+  name: "SOLOARISOA Delphine Rakotoarisoa",
+  shortName: "SOLOARISOA Delphine Rakotoarisoa",
   role: "Étudiante en M2 Data Science & Analyst · Développeuse Logiciel",
   location: "Amoron'i Mania, Madagascar",
   phone: "+261 37 90 593 32",
@@ -104,10 +104,27 @@ export const languages = [
 
 export const interests = ["Jeux", "Musique", "Basketball"]
 
+export const projects = [
+  {
+    title: "Gestion de Présence Faciale Universitaire",
+    kind: "Projet universitaire · IA",
+    description:
+      "Système de reconnaissance faciale pour automatiser la gestion de présence des étudiants à l'université. Le modèle repose sur un réseau de neurones convolutif (CNN) entraîné sur mesure pour l'identification des visages.",
+    features: [
+      "Modèle CNN entraîné pour la reconnaissance faciale",
+      "Détection et identification des visages en temps réel",
+      "Follow-up automatique de la présence des étudiants",
+    ],
+    tech: ["Python", "CNN", "TensorFlow / Keras", "OpenCV"],
+    github: "https://github.com/ARISOARak/gestion_de_presence_facial",
+  },
+]
+
 export const navItems = [
-  { label: "Profil", href: "#profil" },
+  { label: "Profil", href: "#top" },
   { label: "Parcours", href: "#parcours" },
   { label: "Expériences", href: "#experiences" },
+  { label: "Projets", href: "#projets" },
   { label: "Compétences", href: "#competences" },
   { label: "Contact", href: "#contact" },
 ]

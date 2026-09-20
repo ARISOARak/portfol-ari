@@ -4,9 +4,9 @@ import { useEffect, useState } from "react"
 import { navItems, profile } from "@/lib/portfolio-data"
 import { cn } from "@/lib/utils"
 import { ThemeToggle } from "./theme-toggle"
-import { Briefcase, GraduationCap, Mail, UserRound, Wrench, type LucideIcon } from "lucide-react"
+import { Briefcase, FolderOpen, GraduationCap, Mail, UserRound, Wrench, type LucideIcon } from "lucide-react"
 
-const navIcons: LucideIcon[] = [UserRound, GraduationCap, Briefcase, Wrench, Mail]
+const navIcons: LucideIcon[] = [UserRound, GraduationCap, Briefcase, FolderOpen, Wrench, Mail]
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false)
@@ -39,7 +39,7 @@ export function SiteHeader() {
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5 sm:px-8">
         <a href="#top" className="group flex flex-col leading-tight">
-          <span className="font-serif text-base font-semibold tracking-tight text-foreground transition-colors group-hover:text-primary">
+          <span className="font-serif text-sm font-semibold tracking-tight text-foreground transition-colors group-hover:text-primary">
             {profile.shortName}
           </span>
           <span className="text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground">

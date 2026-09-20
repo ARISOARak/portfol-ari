@@ -74,7 +74,7 @@ export function Hero() {
           </Reveal>
 
           <Reveal direction="up" delay={100}>
-            <h1 className="mt-6 text-balance font-serif text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
+            <h1 className="mt-6 text-balance font-serif text-3xl font-semibold leading-[1.1] tracking-tight text-foreground sm:text-4xl md:text-5xl">
               {profile.name}
             </h1>
           </Reveal>
